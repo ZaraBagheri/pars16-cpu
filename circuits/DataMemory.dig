@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>CLK</string>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="-60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>ADDR</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>WDATA</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>MEM_WRITE</string>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>RDATA</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1100" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="1020" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RAMDualAccess</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>DMEM</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>MADDR_DBG</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>DBG_MOUT</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1240" y="-20"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="900" y="80"/>
+      <p2 x="940" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="-20"/>
+      <p2 x="1240" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="-20"/>
+      <p2 x="1020" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="-100"/>
+      <p2 x="1000" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="20"/>
+      <p2 x="1020" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="-40"/>
+      <p2 x="1020" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="-40"/>
+      <p2 x="1100" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="40"/>
+      <p2 x="1020" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="-60"/>
+      <p2 x="980" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="60"/>
+      <p2 x="1020" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="140"/>
+      <p2 x="1000" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="-60"/>
+      <p2 x="980" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="-100"/>
+      <p2 x="1000" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="60"/>
+      <p2 x="1000" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="40"/>
+      <p2 x="940" y="80"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

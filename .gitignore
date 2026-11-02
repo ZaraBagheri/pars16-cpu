@@ -1,0 +1,17 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Original submission archive; the editable circuits are the source of truth.
+CPU_*.zip
+
+# Local tools, generated test circuits, and Python caches
+.tools/
+.build/
+__pycache__/
+*.py[cod]
+.venv/
+
+# Digital editor backups
+*.dig.bak
+*.dig~
