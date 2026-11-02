@@ -8,6 +8,7 @@ import struct
 
 
 IMAGES = [
+    ("CPU_403101434", "cpu", "Complete Pars16 CPU schematic"),
     ("ALU", "alu", "16-bit arithmetic and logic unit"),
     ("RegisterFile", "register-file", "Register file with two operand reads and a debug read"),
     ("ControlUnit", "control-unit", "ROM-based instruction control unit"),

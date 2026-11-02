@@ -53,7 +53,7 @@ python3 scripts/export_schematic.py --digital-jar /path/to/Digital.jar
 
 This exports the actual top-level circuit through Digital's SVG renderer and normalizes its dimensions, background, and timestamp for repository display.
 
-The component gallery uses the supplied module PNGs. To refresh its previews after replacing those images:
+The README's CPU image and the component gallery use the supplied PNGs. To refresh their previews after replacing those images:
 
 ```sh
 python3 scripts/prepare_image_gallery.py

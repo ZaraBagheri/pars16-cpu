@@ -2,11 +2,11 @@
 
 A processor built from digital logic in [Digital](https://github.com/hneemann/Digital). Pars16 combines a 16-bit datapath, a ROM-based instruction decoder, separate instruction and data memories, and condition-controlled execution. The design includes the complete path from instruction fetch through register writeback.
 
-![Complete Pars16 CPU schematic showing instruction fetch, control, registers, ALU, flags, and memory](docs/images/CPU_403101434.png)
+![Complete Pars16 CPU schematic showing instruction fetch, control, registers, ALU, flags, and memory](docs/images/gallery/cpu.svg)
 
-*The complete processor. [Open the full-size image](docs/images/CPU_403101434.png) to inspect the wiring, or explore the [individual module schematics](docs/architecture.md#component-schematics).*
+*The complete processor. [Open the full-size image](docs/images/gallery/cpu.svg) to inspect the wiring, or explore the [individual module schematics](docs/architecture.md#component-schematics).*
 
-[View the full schematic](docs/images/CPU_403101434.png) · [Instruction set](docs/instruction-set.md) · [Architecture and signals](docs/architecture.md) · [Demo program](examples/README.md) · [Verification](docs/verification.md)
+[View the full schematic](docs/images/gallery/cpu.svg) · [Instruction set](docs/instruction-set.md) · [Architecture and signals](docs/architecture.md) · [Demo program](examples/README.md) · [Verification](docs/verification.md)
 
 ## Design at a glance
 
